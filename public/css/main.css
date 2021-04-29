@@ -1,6 +1,18 @@
-.foto-perfil {
+.profilePicture {
     max-width: 15%;
     border-radius: 50%;
+}
+
+.primaryColor {
+    background-color: #f8b133 !important;
+}
+
+.secondaryColor {
+    background-color: #21252b !important;
+}
+
+.whiteBackground {
+    color: #1fa1b8 !important;
 }
 
 .space {
@@ -9,4 +21,32 @@
 
 html {
     scroll-behavior: smooth;
+}
+
+* {
+    font-family: 'Product Sans';
+}
+
+.whiteTitle {
+    padding-bottom: 20px;
+    color: #FAFBFC;
+}
+
+.whiteText {
+    color: #FAFBFC !important;
+}
+
+.blackTitle {
+    padding-bottom: 20px;
+    color: #000a12;
+}
+
+.blackText {
+    color: #000a12;
+}
+
+.footerText {
+    margin: 0px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
