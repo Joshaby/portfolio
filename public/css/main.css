@@ -4,6 +4,10 @@
     border-radius: 50%;
 }
 
+.space {
+    margin-right: 25px;
+}
+
 html {
     scroll-behavior: smooth;
 }
