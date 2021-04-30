@@ -8,7 +8,7 @@
 }
 
 .secondaryColor {
-    background-color: #21252b !important;
+    background-color: #202020 !important;
 }
 
 .whiteBackground {
@@ -21,6 +21,7 @@
 
 html {
     scroll-behavior: smooth;
+    background-image: url(public/image/7.jpg);
 }
 
 * {
@@ -49,4 +50,8 @@ html {
     margin: 0px;
     padding-top: 20px;
     padding-bottom: 20px;
+}
+
+.backgroundImage {
+    background-image: "public/image/background.png" !important;
 }
