@@ -1,18 +1,11 @@
 .profilePicture {
     max-width: 15%;
     border-radius: 50%;
-}
-
-.primaryColor {
-    background-color: #f8b133 !important;
+    padding-bottom: 20px;
 }
 
 .secondaryColor {
     background-color: #202020 !important;
-}
-
-.whiteBackground {
-    color: #1fa1b8 !important;
 }
 
 .space {
@@ -21,7 +14,6 @@
 
 html {
     scroll-behavior: smooth;
-    background-image: url(public/image/7.jpg);
 }
 
 * {
@@ -52,6 +44,8 @@ html {
     padding-bottom: 20px;
 }
 
-.backgroundImage {
-    background-image: "public/image/background.png" !important;
+.icon {
+    border-radius: 100% !important;
+    height: 50px !important;
+    width: 50px !important;
 }
