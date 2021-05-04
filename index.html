@@ -1,73 +1,57 @@
-<!DOCTYPE html>
-<html lang="pt-br">
+<link rel="stylesheet" href="public/css/main.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://kit.fontawesome.com/197db88fed.js" crossorigin="anonymous"></script>
+<script src="public/javascript/main.js"></script>
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Joshaby</title>
-    <link rel="stylesheet" href="public/css/main.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://kit.fontawesome.com/197db88fed.js" crossorigin="anonymous"></script>
-</head>
+<!-- Navbar-->
+<header class="header">
+    <nav class="navbar navbar-expand-lg fixed-top py-3">
+        <div class="container">
+            <img src="public/image/code.png" style="width: 4%; height: 4%;">
+            <a href="#" class="navbar-brand font-weight-bold" style="padding-left: 7px;">José Henrique</a>
+            <button type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"
+                class="navbar-toggler navbar-toggler-right"><i class="fa fa-bars"></i></button>
 
-<body>
-    <nav class="navbar navbar-expand-lg navbar-light secondaryColor">
-        <a class="navbar-brand whiteText" href="#">José Henrique</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav mr-auto">
-
-            </ul>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link whiteText" href="#projetos">Projetos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link whiteText" href="#sobremim">Sobre mim</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link whiteText" href="#certificações">Certficações</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link whiteText" href="#habilidades">Habilidades</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link whiteText" href="#prêmios">Prêmios</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link whiteText" href="#contato">Contato</a>
-                </li>
-            </ul>
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active"><a href="#Projetos" class="nav-link font-weight-bold">Projetos</a></li>
+                    <li class="nav-item"><a href="#Sobremim" class="nav-link font-weight-bold">Sobre mim</a></li>
+                    <li class="nav-item"><a href="#Certificacoes" class="nav-link font-weight-bold">Certificações</a></li>
+                    <li class="nav-item"><a href="#Habilidades" class="nav-link font-weight-bold">Habilidades</a></li>
+                    <li class="nav-item"><a href="#Premios" class="nav-link font-weight-bold">Prêmios</a></li>
+                    <li class="nav-item"><a href="#Contato" class="nav-link font-weight-bold">Contato</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
+</header>
+
+<body>
     <section class="jumbotron bg-cover text-center"
         style="background-image: url(public/image/background.jpg); background-size: 100%; background-position: center; border-radius: 0%;">
         <div class="container jumbotron-with-background">
             <img class="profilePicture" src="public/image/jose.jpg">
-            <h1 class="jumbotron-heading whiteTitle">José Henrique</h1>
+            <h1 class="jumbotron-heading whiteTitle font-weight-bold">José Henrique</h1>
             <p class="lead whiteText">Graduando em Engenharia de Computação pelo IFPB - Monitor de POO - Estudande Full
                 Stack</p>
         </div>
     </section>
     <!--Projetos-->
     <div class="container">
-        <h2 class="heading text-center blackTitle" id="Projetos">
-            Projetos
+        <h2 class="heading text-center font-weight-bold blackTitle" id="Projetos">
+            <img src="public/image/project.png" alt="" class="iconTitle">
+            <p>Projetos</p>
         </h2>
         <div class="card-deck">
             <div class="card mb-4 box-shadow">
@@ -206,8 +190,9 @@
     <section class="jumbotron bg-cover text-center"
         style="background-image: url(public/image/background2.jpg); background-size: 100%; background-position: 0px -100px; border-radius: 0%;">
         <div class="container">
-            <h2 class="jumbotron-heading blackTitle" id="sobremim">
-                Sobre mim
+            <h2 class="jumbotron-heading blackTitle font-weight-bold" id="Sobremim">
+                <img src="public/image/aboutme.png" alt="" class="iconTitle">
+                <p>Sobre mim</p>
             </h2>
             <p class="leading blackTitle">
                 Meu nome é José Henrique Azevedo de Brito, tenho 20 anos, sou aluno do 5º perído do curso de Engenharia
@@ -222,8 +207,9 @@
     </section>
     <!--Certificações-->
     <div class="container">
-        <h2 class="heading text-center blackTitle" id="certificações">
-            Certificações
+        <h2 class="heading text-center blackTitle font-weight-bold" id="Certificacoes">
+            <img src="public/image/certificate.png" alt="" class="iconTitle">
+            <p>Certificações</p>
         </h2>
         <div class="card-deck">
             <div class="card mb-4 box-shadow">
@@ -513,8 +499,9 @@
     <section class="jumbotron bg-cover text-center"
         style="background-image: url(public/image/background3.jpg); background-size: 100%; background-position: center; border-radius: 0%;">
         <div class="container">
-            <h2 class="jumbotron-heading blackText" id="habilidades">
-                Habilidades
+            <h2 class="jumbotron-heading blackText font-weight-bold" id="Habilidades">
+                <img src="public/image/skill.webp" alt="" class="iconTitle">
+                <p>Habilidades</p>
             </h2>
             <p class="leading">
             <div class="container p-4 pb-0">
@@ -550,8 +537,9 @@
     </section>
     <!--Prêmios-->
     <div class="container">
-        <h2 class="jumbotron-heading text-center blackTitle" id="prêmios">
-            Prêmios
+        <h2 class="jumbotron-heading text-center blackTitle font-weight-bold" id="Premios">
+            <img src="public/image/medal.png" alt="" class="iconTitle">
+            <p>Prêmios</p>
         </h2>
         <h5 class="card-title text-center blackTitle">II Olimpíada de Programação - IFPB Campus Campina Grande | 2º
             Lugar</h5>
@@ -559,41 +547,46 @@
     <!--Contato e footer-->
     <footer class="whiteText secondaryColor footerText">
         <div class="container">
-            <div class="container p-4 pb-0 text-center" id="contato">
+            <div class="container jumbotron p-4 pb-0 text-center secondaryColor" id="Contato">
                 <!-- Facebook -->
                 <a href="https://www.facebook.com/Joshaby707" target="_blank"><button type="button"
-                        class="btn btn-link space icon" style="background-color: #3b5998;"><i class="fab fa-facebook-f"
-                            style="color: white;"></i></button></a>
+                        class="btn btn-link space iconBackground" style="background-color: #3b5998;"><i
+                            class="fab fa-facebook-f icon"></i></button></a>
                 <!-- Whatsapp -->
                 <a href="https://api.whatsapp.com/send?phone=5583996936014&text=Olá!%20José" target="_blank"><button
-                        type="button" class="btn btn-link space icon" style="background-color: #25D366;"><i
-                            class="fab fa-whatsapp" style="color: white;"></i></button></a>
+                        type="button" class="btn btn-link space iconBackground" style="background-color: #25D366;"><i
+                            class="fab fa-whatsapp icon"></i></button></a>
                 <!-- Instagram -->
                 <a href="https://www.instagram.com/josehenrique.class/" target="_blank"><button type="button"
-                        class="btn btn-link space icon" style="background-color: #ac2bac;"><i class="fab fa-instagram"
-                            style="color: white;"></i></button></a>
+                        class="btn btn-link space iconBackground" style="background-color: #ac2bac;"><i
+                            class="fab fa-instagram icon"></i></button></a>
                 <!-- Gmail -->
                 <a href="mailto:josehenriquebrito55@gmail.com" target="_blank"><button type="button"
-                        class="btn btn-link space icon" style="background-color: #dd4b39;"><i class="fab fa-google"
-                            style="color: white;"></i></button></a>
+                        class="btn btn-link space iconBackground" style="background-color: #dd4b39;"><i
+                            class="fab fa-google icon"></i></button></a>
                 <!-- Linkedin -->
                 <a href="https://www.linkedin.com/in/jos%C3%A9-henrique-azevedo-de-brito-a305761b2/"
-                    target="_blank"><button type="button" class="btn btn-link space icon"
-                        style="background-color: #0082ca;"><i class="fab fa-linkedin-in"
-                            style="color: white;"></i></button></a>
+                    target="_blank"><button type="button" class="btn btn-link space iconBackground"
+                        style="background-color: #0082ca; font-size: 20px; padding-top: 6px; padding-left: 13px;"><i
+                            class="fab fa-linkedin-in" style="color: white;"></i></button></a>
                 <!-- Github -->
                 <a href="https://github.com/Joshaby" target="_blank"><button type="button"
-                        class="btn btn-link mt-0 icon" style="background-color: #333333;"><i class="fab fa-github"
-                            style="color: white;"></i></button></a>
+                        class="btn btn-link mt-0 iconBackground" style="background-color: #333333;"><i
+                            class="fab fa-github icon"
+                            style="color: white;""></i></button></a>
             </div>
-            <p>Portfólio feito com Bootstrap</p>
             <p class="float-right">
-                <a href="#">Voltar ao topo</a>
+                <a href="#"><button type="button" class="btn btn-link mt-0 iconBackground1"
+                        style="background-color: #0669B6;"><i class="fas fa-angle-up"
+                            style="color: white; font-size: 20px; padding-top: 2px;"></i></button></a>
             </p>
-            <p>Novo no Bootstrap? <a href="https://getbootstrap.com/">Visite a página</a> ou leia o <a
+            <p class="text-center" style="padding-left: 25px;">Portfólio feito com Bootstrap 4.0 e desenvolvido por <a
+                    href="https://github.com/Joshaby">José Henrique,
+                    aka Joshaby</a></p>
+            <p class="text-center" style="padding-left: 25px;">Novo no Bootstrap? <a
+                    href="https://getbootstrap.com/">Visite a página</a> ou leia o <a
                     href="https://getbootstrap.com/docs/4.0/getting-started/introduction/">guia de introdução</a>.</p>
+
         </div>
     </footer>
 </body>
-
-</html>
