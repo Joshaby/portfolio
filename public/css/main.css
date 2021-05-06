@@ -1,8 +1,8 @@
 .profilePicture {
-    max-width: 15%;
+    max-width: 150px;
     border-radius: 50%;
-    padding-top: 25px;
-    padding-bottom: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .secondaryColor {
@@ -62,12 +62,12 @@ html {
 .icon {
     color: white !important;
     font-size: 20px !important;
-    padding-top: 2px !important;
+    padding-top: 1px !important;
 }
 
 .iconTitle {
-    height: 10%;
-    width: 5%;
+    width: 65px;
+    height: 75px;
     padding-bottom: 15px;
 }
 
@@ -79,8 +79,7 @@ html {
     color: #fff;
 }
 
-.navbar .nav-link:hover,
-.navbar .nav-link:focus {
+.navbar .nav-link:hover, .navbar .nav-link:focus {
     color: #fff;
     text-decoration: none;
 }
@@ -98,12 +97,20 @@ html {
     color: white;
 }
 
-.navbar.active .nav-link:hover,
-.navbar.active .nav-link:focus {
+.navbar.active .nav-link:hover, .navbar.active .nav-link:focus {
     color: white;
     text-decoration: none;
 }
 
 .navbar.active .navbar-brand {
     color: white;
+}
+
+@media (max-width: 991.98px) {
+    .navbar {
+        background: #191919;
+    }
+    .navbar .navbar-brand, .navbar .nav-link {
+        color: white;
+    }
 }
